@@ -37,5 +37,59 @@ only screen and (min-resolution: 2dppx) {}
         padding: 5px;
         position: relative;
         margin-left: auto;
-    } 
+    }
+
+    .footer {
+        background: #2D314D;
+
+        &__container {
+            padding-top: 48px;
+            padding-bottom: 48px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+
+        &__left {
+            height: 95px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+        }
+
+        .footer__right {
+            height: 95px;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__links {
+            margin-bottom: 20px;
+        }
+    }
+
+    .footer-list {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 175px;
+        min-height: 94px;
+
+        &__item {
+            max-width: 160px;
+            height: 29px;
+            margin-bottom: 8px;
+        }
+
+        &:nth-of-type(2) {
+            flex-grow: 0;
+        }
+
+    }
+
+    
 }

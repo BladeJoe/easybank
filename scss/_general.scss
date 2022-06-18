@@ -64,10 +64,11 @@ body{
     font-size: 14px;
     line-height: 28px;
     color: #fff;
-    padding: 8px 35px;
+    padding: 8px 0px;
     cursor: pointer;
     transition: background-size 5s, background-color 5s;
-
+    max-width: 163px;
+    width: 100%;
 }
 
 .button:hover {

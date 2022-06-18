@@ -4,7 +4,7 @@
         bottom: 160px;
     } 
     margin-top: 80px;
-
+    z-index: 1;
     background-image: url('./../../images/hero-bg.png'), url('./../../images/hero-bg-layers.png')  ;
     background-position: calc(50% + 450px) calc(0% - 257px),;
     background-repeat: no-repeat;
