@@ -1,7 +1,13 @@
 .reason {
+    &__container {
+
+     
+    }
+
     z-index: -88;
     background: #F4F5F7;
     padding-bottom: 94px;
+
     &__top {
         max-width: 635px;
     }
@@ -11,7 +17,6 @@
         line-height: 64px;
         letter-spacing: -0.714286px;
         color: $dark;
-        padding-top: 96px;
     }
 
     &__text {
@@ -27,7 +32,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+
     &__item {
         max-height: 278px;
         height: 100%;
@@ -37,6 +43,7 @@
         align-items: flex-start;
         max-width: 255px;
         width: 100%;
+        margin-bottom: 24px;
     }
 
     &__item::before {
@@ -45,7 +52,7 @@
         width: 72px;
         height: 72px;
         border-radius: 50%;
-        border: 0; 
+        border: 0;
         padding: 16px;
         overflow: visible;
         margin-bottom: 40px;
@@ -73,12 +80,15 @@
 .before1::before {
     background-image: url('./../images/li-1.png'), $gradient;
 }
+
 .before2::before {
     background-image: url('./../images/li-2.png'), $gradient;
 }
+
 .before3::before {
     background-image: url('./../images/li-3.png'), $gradient;
 }
+
 .before4::before {
     background-image: url('./../images/li-4.png'), $gradient;
 }

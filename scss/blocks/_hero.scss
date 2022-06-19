@@ -2,11 +2,16 @@
     padding: {
         top: 160px;
         bottom: 160px;
-    } 
+    }
+
     margin-top: 80px;
     z-index: 1;
-    background-image: url('./../../images/hero-bg.png'), url('./../../images/hero-bg-layers.png')  ;
-    background-position: calc(50% + 450px) calc(0% - 257px),;
+    background-image: url('./../images/hero-bg.png'),
+    url('./../images/hero-bg-layers.png'); 
+    background-size: 730px 1000px,
+    1233px 956px;
+    background-position: calc(50% + 500px) calc(50% + 20px),
+    calc(50% + 450px) calc(0% - 257px);
     background-repeat: no-repeat;
 
     &__container {
